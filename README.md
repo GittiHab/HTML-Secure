@@ -1,7 +1,7 @@
 # HTML Secure
 Simply upload these files – customize them minimally – add users and you have just secured any static website!
 
-![Screenshot of HTML Secure](https://photos-4.dropbox.com/t/2/AAAkfM9rb-DTaDMHzEyRjIBnu_Ba5ghkxPZHALR9CGCfOg/12/476060260/png/32x32/1/_/1/2/htmlSecureScreenshot.png/EJ7e0e0DGAUgBygH/p8SN4w_LE6t6-45OswG2e7iYDRVAt0NDRqR9gFd75E4?size=1024x768&size_mode=2)
+![Screenshot of HTML Secure](https://dl.dropboxusercontent.com/s/mlfz0b0m2egg96k/htmlSecureScreenshot.png?dl=0&s=sl)
 
 ## Requirements
 
