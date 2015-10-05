@@ -1,0 +1,6 @@
+# Redirect all requests to the php file
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteRule ^(.+?)\.html$ /index.php [L,NC]
+</IfModule>

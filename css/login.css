@@ -1,0 +1,124 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url(../imgs/landscape.jpg) no-repeat center;
+    background-size: cover;
+}
+
+* {
+    font-family: 'Source Sans Pro', helvetica, arial, 'sans-serif';
+}
+
+#page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 120px;
+    margin: -10px 0 0 -150px;
+    padding: 0;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+input {
+    display: block;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #717171;
+    width: 100%;
+    font-size: 30px;
+    transition: border .5s;
+    font-weight: 300;
+    padding: 0;
+    background: transparent;
+}
+
+input[type=password] {
+    padding-right: 40px;
+}
+
+input:focus {
+    border-bottom-color: black;
+}
+
+input.error {
+    transition: none;
+    border: 1px solid #ce6262;
+}
+
+input.error:focus {
+    outline: 2px solid #ce6262;
+}
+
+button {
+    position: absolute;
+    bottom: 28px;
+    right: 5px;
+    font-size: 20px;
+    border: none;
+    outline: 0;
+    background: transparent;
+    color: #717171;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+button:hover {
+    color: #000000;
+}
+
+h1,
+p {
+    position: absolute;
+    width: 300px;
+    text-align: left;
+    left: 50%;
+    top: 50%;
+    margin: -140px 0 0 -150px;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 45px;
+}
+
+p {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: -80px;
+}
+
+p.footer {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+a:link,a:visited {
+    color: #aaaaaa;
+    text-decoration: underline;
+}
+a:hover, a:active {
+    color: #868686;
+    text-decoration: none;
+}
