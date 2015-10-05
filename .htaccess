@@ -4,3 +4,8 @@ RewriteEngine On
 
 RewriteRule ^(.+?)\.html$ /index.php [L,NC]
 </IfModule>
+# Deny Access to .sqlite files
+<Files  ~ "\.sqlite$">
+  Order allow,deny
+  Deny from all
+</Files>
