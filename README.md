@@ -22,3 +22,7 @@ Simply upload these files – customize them minimally – add users and you hav
 
 #### Adding users & logging
 When opening *index.php* for the first time a file called *users.sqlite* is created. If you open this file with a sqlite manager (for example [SQLite Manager for Firefox](https://addons.mozilla.org/de/firefox/addon/sqlite-manager/)), you can now add users in the *users* table (**important**: always use lowercase characters for the name and plain-text for the passwords). In the *log* table you will now see which user logged in when.
+
+## License
+This repository is licensed under the MIT License. See the `LICENSE` file for full information. You are basically allowed to do anything as long as you include the license and copyright notice.
+Anyone having used this repository before the license has been added (as of 18th of June 2018), I grant the [Unlicense](https://choosealicense.com/licenses/unlicense/) (copyright and license does not need to be included).
